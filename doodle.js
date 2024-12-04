@@ -161,15 +161,6 @@ function placePlatforms() {
 
     platformArray.push(platform);
 
-    // platform = {
-    //     img : platformImg,
-    //     x : boardWidth/2,
-    //     y : boardHeight - 150,
-    //     width : platformWidth,
-    //     height : platformHeight
-    // }
-    // platformArray.push(platform);
-
     for (let i = 0; i < 6; i++) {
         let randomX = Math.floor(Math.random() * boardWidth*3/4); //(0-1) * boardWidth*3/4
         let platform = {
